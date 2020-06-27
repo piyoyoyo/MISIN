@@ -1,0 +1,14 @@
+/* ...........................................
+
+    import fonts
+
+...........................................  */
+
+/* 英字フォントはLoRes12を指定 font-weightは400,700が指定可能 */
+@import url("https://use.typekit.net/lat7snk.css"); 
+
+/* 日本語フォントはPixelMplusを指定 font-weightはRegular */
+@font-face {
+  font-family: "PixelMplus";
+  src: url("../../fonts/PixelMplus10-Regular.ttf");
+}

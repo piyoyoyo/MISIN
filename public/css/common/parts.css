@@ -1,0 +1,103 @@
+/* ...........................................
+
+    parts
+
+...........................................  */
+
+/*   title
+...........................................  */
+.p-section_ttl {
+  margin-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-align: center;
+}
+
+.p-section_ttl .en{
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+/*   button
+...........................................  */
+.p-general_btn {
+  text-align: center;
+}
+
+.p-general_btn a {
+  display: inline-block;
+  padding: 10px 80px;
+  box-sizing: border-box;
+  color: #fff;
+  line-height: 1;
+  border-radius: 22px;
+  background: rgba(230,0,111,1);
+}
+
+.p-general_btn a:last-child {
+  margin-right: 0;
+}
+
+.p-general_btn a::after {
+  display: inline-block;
+  width: 21px;
+  height: 20px;
+  margin-left: 10px;
+  background: url(../../img/pc/common/arrow.png) no-repeat center /contain;
+  transition: 0.2s;
+  content: "";
+}
+
+.p-general_btn a:hover {
+  text-decoration: underline;
+}
+
+.p-general_btn a:hover::after {
+  transition-delay: 0.15s;
+  transform: translateX(10px);
+}
+
+/*   pagination
+...........................................  */
+/* 
+.p-page_nav {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #d9d9d9;
+}
+.p-page_nav > * {
+  margin-right: 20px;
+}
+.p-page_nav a {
+  display: block;
+  min-width: 196px;
+  padding: 17px 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-radius: 3px 3px 0 0;
+  background: #e6e6e6;
+}
+.p-page_nav > *:hover,
+.p-page_nav .active {
+  position: relative;
+  bottom: -2px;
+}
+.p-page_nav > *:hover a,
+.p-page_nav .active a {
+  padding: 21px 0;
+  border: solid #e6e6e6;
+  border-width: 2px 2px 0;
+  background: #fff;
+  opacity: 1;
+  transition: none;
+}
+.p-page_nav .active a:hover {
+  opacity: 1;
+} */

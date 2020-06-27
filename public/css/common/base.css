@@ -1,0 +1,36 @@
+/* ...........................................
+
+    base
+
+...........................................  */
+body {
+  min-width: 1064px;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: lores-12, "PixelMplus", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: calc(100vw / 37.5);
+  }
+}
+
+input,select,button {
+  font-family: lores-12, "PixelMplus", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  transition: 0.2s;
+}
+
+img {
+  max-width: 100%;
+}

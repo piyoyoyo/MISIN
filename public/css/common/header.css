@@ -1,0 +1,123 @@
+
+/* ...........................................
+
+    header
+
+...........................................  */
+.header {
+  position: relative;
+  overflow: hidden;
+}
+
+/*   header_main
+...........................................  */
+.header_main {
+  font-weight: 700;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  text-align: center;
+  padding-left: 195px;
+  background: rgba(230,0,111,1);
+  box-sizing: border-box;
+}
+
+.header_main> * {
+  display: inline-block;
+}
+
+/*   header_logo
+...........................................  */
+.header_logo {
+  display: inline-block;
+  text-align: center;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.header_logo:hover {
+  color: #fff;
+}
+
+/*   SIGN IN / NEW ORDER
+...........................................  */
+.header_members_nav {
+  width: 140px;
+  padding-left: 40px;
+}
+
+.header_members_nav a {
+  display: block;
+}
+
+.header_sign_in {
+  border: 1px solid #000;
+}
+
+.header_sign_in:hover {
+  background: #fff;
+}
+
+.header_new_order {
+  margin-top: 10px;
+  color: #fff;
+  background: #000;
+}
+
+.header_new_order:hover {
+  color: rgba(230,0,111,1);
+}
+
+/*   header_nav
+...........................................  */
+.header_nav>* {
+  background: rgba(230,0,111,1);
+}
+
+.header_nav::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 1500px 0 0;
+  border-color: rgba(230,0,111,1) transparent transparent transparent;
+}
+
+/*   header_global_nav
+...........................................  */
+.header_global_nav {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.header_global_nav> *:hover {
+  color: #fff;
+}
+
+/* トップページ用 */
+.header_main.is-toppage {
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-bottom: none; */
+}
+
+/* js用 */
+.is-scrolled {
+  /* padding-bottom: 112px; */
+}
+
+.is-scrolled .header_main {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
+}
+.is-narrow .header_logo a,
+.is-narrow .header_g-nav a,
+.is-narrow .header_lang a {
+  /* height: 82px; */
+}
